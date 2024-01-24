@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+</head>
+<body>
+Nothing happens here yet.
+
+<div> List of Tasks </div>
+
+<div th:each="task: ${tasks}"
+     th:include="fragments/task.html">
+</div>
+
+</body>
+</html>
